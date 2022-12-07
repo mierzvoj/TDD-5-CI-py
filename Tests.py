@@ -18,10 +18,10 @@ class Test_RomanNumeralsTest(unittest.TestCase):
 
     def test_5_is_a_single_v(self):
         self.assertEqual(roman(5), "V")
-    #
-    # def test_6_being_5_1_is_vi(self):
-    #     self.assertEqual(roman(6), "VI")
-    #
+
+    def test_6_being_5_1_is_vi(self):
+        self.assertEqual(roman(6), "VI")
+
     # def test_9_being_10_1_is_ix(self):
     #     self.assertEqual(roman(9), "IX")
     #
